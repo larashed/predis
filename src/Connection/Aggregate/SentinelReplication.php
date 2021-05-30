@@ -246,8 +246,8 @@ class SentinelReplication implements ReplicationInterface
             // sentinels passwords and nodes passwords, this will be implemented
             // in a later release.
             $parameters['database'] = null;
-            $parameters['username'] = null;
-            $parameters['password'] = null;
+//             $parameters['username'] = null;
+//             $parameters['password'] = null;
 
             if (!isset($parameters['timeout'])) {
                 $parameters['timeout'] = $this->sentinelTimeout;
